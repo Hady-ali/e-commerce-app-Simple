@@ -1,0 +1,75 @@
+.Seller-Dashboard {
+  text-align: center;
+}
+.Seller-Dashboard h2 {
+  margin: 20px 0;
+  color: red;
+}
+.Seller-Dashboard button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 0 20px 20px 0 ;
+  border: none;
+  cursor: pointer;
+}
+.Seller-Dashboard button:hover {
+  background-color: #0056b3 ;
+  color:  #fff;
+}
+.Seller-Dashboard input{
+  padding: 8px;
+  border-radius: 20px 0 0 20px  ;
+}
+.Seller-Dashboard ul {
+  margin-top: 10px;
+}
+.Seller-Dashboard ul li {
+  list-style: none;
+}
+.product-item {
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+.product-item img {
+  max-width: 100%;
+  height: auto;
+} 
+.Login {
+  text-align: center;
+  margin: 170px auto;
+} 
+.Login h1 {
+  padding-bottom: 30px;
+}
+.Login form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.Login form label {
+  font-size: 18px;
+  padding: 0 10px;
+}
+.Login form input {
+  padding: 5px;
+  margin: 10px 0;
+}
+.Login form button {
+  margin-top: 10px;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+.Login form button:hover{
+  background-color: #0056b3;
+  color: white;
+}
